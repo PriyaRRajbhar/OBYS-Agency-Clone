@@ -48,7 +48,7 @@ tl.to("#loader",{
 }
 loadingAnimation()
 
-document.addEventListener("mousemove", function (dets) {
+document.addEventListener("mousemove", function(dets){
     gsap.to("#crsr", {
         x: dets.x,
         y: dets.y
